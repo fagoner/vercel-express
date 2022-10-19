@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 4000;
 
 
-app.listen(
+app.get(
     "/", (req, res) =>{
         res.send('Pagina inicio')
     }
